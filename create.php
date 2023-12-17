@@ -21,7 +21,7 @@
   </head>
   <body>
 
-    <div class="container">
+    <div class="container w-50 mt-3">
       <h1>Add New Session Data</h1>
       <form action="add.php" method="POST">
       <div class="mb-3">
