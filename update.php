@@ -9,10 +9,6 @@ $studentID = $_POST['studentID'];
 $teacherID = $_POST['teacherID'];
 
 
-// echo $id . ' - ';
-// echo $title . ' - ' . $year . ' - ' . $authorId;
-// echo "<br>";
-
 $query = "UPDATE sessions
 SET sessions.session_date = '$date', 
 sessions.studentID = $studentID, 
