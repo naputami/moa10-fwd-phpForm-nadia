@@ -1,6 +1,6 @@
 <?php 
 
-require_once 'connection.php';
+require_once '../connection.php';
 
 $date = $_POST['date'];
 $studentID = $_POST['studentID'];

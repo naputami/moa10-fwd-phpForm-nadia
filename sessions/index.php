@@ -1,6 +1,6 @@
 <?php 
 
-require_once 'connection.php';
+require_once '../connection.php';
 
 $query = "SELECT sessions.sessionID, students.level,  sessions.session_date, students.name AS student_name, teachers.name AS teacher_name, teachers.subject from sessions inner join students on sessions.studentID = students.studentID inner join teachers on sessions.teacherID = teachers.teacherID";
 $result = $conn->query($query);
@@ -16,13 +16,13 @@ $result = $conn->query($query);
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="./styles.css" rel="stylesheet">
-    <title>Private Courses Data</title>
+    <link href="../styles.css" rel="stylesheet">
+    <title>Private Courses Session Data</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">MyCourses</a>
+    <a class="navbar-brand" href="../home.php">MyCourses</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,10 +32,10 @@ $result = $conn->query($query);
           <a class="nav-link active" aria-current="page" href="#">Sessions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./students/index.php">Students</a>
+          <a class="nav-link" href="../students/index.php">Students</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./teachers/index.php">Teachers</a>
+          <a class="nav-link" href="../teachers/index.php">Teachers</a>
         </li>
       </ul>
     </div>

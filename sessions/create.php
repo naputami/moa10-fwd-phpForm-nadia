@@ -1,5 +1,5 @@
 <?php 
-    require_once 'connection.php';
+    require_once '../connection.php';
     $query1 = "SELECT teachers.teacherID, teachers.name FROM teachers";
     $query2 = "SELECT students.studentID, students.name FROM students";
     
