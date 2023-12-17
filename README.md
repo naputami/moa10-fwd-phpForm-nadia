@@ -10,7 +10,7 @@ Membuat Form PHP sederhana dengan fitur CRUD yang tersambung dengan database MyS
 #### Menambah Sesi Baru
 ![Add new session](/readme_assets/add_new_session.gif "Add new Session")
 #### Mengedit Sesi
-![Edit a session](/readme_assets/edit_session1.gif "Edit session")
+![Edit a session](/readme_assets/edit_session.gif "Edit session")
 #### Menghapus Sesi
 ![Delete a session](/readme_assets/delete_session.gif "Delete session")
 ### CRUD Course Student Data
