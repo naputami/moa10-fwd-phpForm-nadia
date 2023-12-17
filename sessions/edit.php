@@ -32,7 +32,7 @@ if ($session->num_rows > 0) {
   </head>
   <body>
 
-    <div class="container">
+    <div class="container w-50 mt-3">
       <h1>Edit Session Data</h1>
       <form action="update.php" method="POST">
         <input type="text" name="sessionID" value="<?php echo $session['sessionID'] ?>" hidden>
@@ -75,7 +75,7 @@ if ($session->num_rows > 0) {
               // output data of each row
               while($row = $teachers->fetch_assoc()) {
                 
-                if($row['teacherID'] === $book['teacherID']) { ?>
+                if($row['teacherID'] === $session['teacherID']) { ?>
                   <option selected value="<?php echo $row['teacherID'] ?>"> <?php echo $row['name'] ?></option>
                 <?php
                 } else { ?> 
