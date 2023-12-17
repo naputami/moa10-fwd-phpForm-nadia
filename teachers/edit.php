@@ -28,7 +28,7 @@ if ($teacher->num_rows > 0) {
   </head>
   <body>
 
-    <div class="container">
+    <div class="container w-50 mt-3">
       <h1>Edit teacher Data</h1>
       <form action="update.php" method="POST">
         <input type="text" name="teacherID" value="<?php echo $teacher['teacherID'] ?>" hidden>
