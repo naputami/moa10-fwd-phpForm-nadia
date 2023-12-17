@@ -28,7 +28,7 @@ if ($student->num_rows > 0) {
   </head>
   <body>
 
-    <div class="container">
+    <div class="container w-50 mt-3">
       <h1>Edit Student Data</h1>
       <form action="update.php" method="POST">
         <input type="text" name="studentID" value="<?php echo $student['studentID'] ?>" hidden>
