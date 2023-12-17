@@ -33,11 +33,11 @@ if ($session->num_rows > 0) {
   <body>
 
     <div class="container">
-      <h1>Edit</h1>
+      <h1>Edit Session Data</h1>
       <form action="update.php" method="POST">
         <input type="text" name="sessionID" value="<?php echo $session['sessionID'] ?>" hidden>
       <div class="mb-3">
-        <label for="title" class="form-label">Date</label>
+        <label for="date" class="form-label">Date</label>
         <input type="date" class="form-control" id="date" name="date" required value="<?php  echo $session['session_date'] ?>">
       </div>
 
