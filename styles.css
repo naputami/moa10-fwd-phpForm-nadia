@@ -1,0 +1,7 @@
+.round-button {
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    bottom: 5rem;
+    margin-right: 3rem;
+}
