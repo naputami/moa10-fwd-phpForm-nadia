@@ -16,7 +16,7 @@ $result = $conn->query($query);
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="./styles.css" rel="stylesheet">
+    <link href="../styles.css" rel="stylesheet">
     <title>Private Courses Data</title>
   </head>
   <body>
@@ -29,13 +29,13 @@ $result = $conn->query($query);
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../index.php">Sessions</a>
+          <a class="nav-link" aria-current="page" href="../index.php">Sessions</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../students/index.php">Students</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Teachers</a>
+          <a class="nav-link active" href="#">Teachers</a>
         </li>
       </ul>
     </div>
